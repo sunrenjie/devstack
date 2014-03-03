@@ -45,7 +45,7 @@ while [[ -n "$1" ]]; do
 done
 
 PIP_GET_PIP_URL=https://raw.github.com/pypa/pip/master/contrib/get-pip.py
-PIP_TAR_URL=https://pypi.python.org/packages/source/p/pip/pip-$INSTALL_PIP_VERSION.tar.gz
+PIP_TAR_URL=http://pypi.douban.com/packages/source/p/pip/pip-$INSTALL_PIP_VERSION.tar.gz
 
 GetDistro
 echo "Distro: $DISTRO"
